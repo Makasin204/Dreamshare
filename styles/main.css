@@ -1,0 +1,2177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1950px) {
+  header {
+    width: 1440px;
+    height: 700px;
+    padding-top: 40px;
+    padding-left: 248px;
+    background-image: url(../images/header-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+  }
+  header > .header__logo {
+    width: 152px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-right: 596px;
+    float: left;
+  }
+  header > .header__logo:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper-mobile {
+    display: none;
+  }
+  header > .header__wrapper {
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  header > .header__wrapper > .header__wrapper__log-in {
+    width: 44px;
+    height: 17px;
+    margin-top: 10px;
+  }
+  header > .header__wrapper > .header__wrapper__log-in:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper > a > .header__wrapper__sign-up {
+    font-family: "Montserrat", sans-serif;
+    width: 90px;
+    height: 36px;
+    padding-top: 1px;
+    margin-left: 19px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    transition: 0.3s;
+  }
+  header > .header__wrapper > a > .header__wrapper__sign-up:hover {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+  }
+  header > .header__main-text {
+    width: 470px;
+    height: 126px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 147.5px;
+    margin-left: 236px;
+  }
+  header > .header__low-text {
+    width: 397px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 28.5px;
+    margin-left: 272px;
+    letter-spacing: -1.4px;
+  }
+  header > .header__head-button {
+    width: 225px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    margin-top: 35px;
+    border: 0px;
+    margin-left: 360px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+  }
+  header > .header__head-button:hover {
+    cursor: pointer;
+  }
+  main {
+    width: 1440px;
+    padding-top: 89px;
+    padding-left: 250px;
+    color: #FFFFFF;
+  }
+  main > .main__block-1 {
+    width: 940px;
+    height: 461px;
+  }
+  main > .main__block-1 > .main__block-1__caption {
+    width: 342px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 299px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 35px;
+  }
+  main > .main__block-1 > .main__block-1__steps {
+    width: 940px;
+    height: 400px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/step-1-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 25px;
+    padding-top: 219px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 22px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 19px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/step-1-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 25px;
+    padding-top: 219px;
+    background-image: url(../images/step-2-img.png);
+    margin-left: 20px;
+    padding-top: 250px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 22px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 19px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 29px;
+    margin-top: 24px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    margin-top: 15px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/step-1-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 25px;
+    padding-top: 219px;
+    background-image: url(../images/step-3-img.png);
+    margin-left: 20px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 22px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 19px;
+  }
+  main > .main__block-2 {
+    width: 941px;
+    height: 361px;
+    margin-top: 95px;
+    color: #444444;
+  }
+  main > .main__block-2 > .main__block-2__caption {
+    width: 491px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 226px;
+  }
+  main > .main__block-2 > .main__block-2__partners {
+    width: 941px;
+    margin-top: 35px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 {
+    width: 221px;
+    height: 205px;
+    float: left;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/avatar-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__description {
+    width: 221px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 {
+    width: 221px;
+    height: 205px;
+    float: left;
+    margin-left: 19px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/avatar-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__description {
+    width: 221px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-2 {
+    background-image: url(../images/avatar-2.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 {
+    width: 221px;
+    height: 205px;
+    float: left;
+    margin-left: 19px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/avatar-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    width: 221px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-3 {
+    background-image: url(../images/avatar-3.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    margin-top: 26px;
+    margin-left: 5px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 {
+    width: 221px;
+    height: 205px;
+    float: left;
+    margin-left: 19px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/avatar-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 51px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    width: 221px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-4 {
+    background-image: url(../images/avatar-4.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    margin-top: 26px;
+  }
+  main > .main__block-2 > a > .main__block-2__button {
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    margin-top: 55px;
+    margin-left: 381px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    letter-spacing: 0px;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    transition-duration: 0.3s;
+  }
+  main > .main__block-2 > a > .main__block-2__button:hover {
+    background: #FF4E50;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  main > .main__block-3 {
+    width: 960px;
+    height: 1031px;
+    margin-top: 95px;
+  }
+  main > .main__block-3 > .main__block-3__caption {
+    width: 413px;
+    height: 32px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+    margin-left: 264px;
+  }
+  main > .main__block-3 > .main__block-3__activities {
+    margin-top: 35px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .main__block-3__activities__pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-1 {
+    background-image: url(../images/activities-desktop/activities-1-desktop.png);
+    width: 300px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-2 {
+    background-image: url(../images/activities-desktop/activities-2-desktop.png);
+    width: 300px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-3 {
+    background-image: url(../images/activities-desktop/activities-3-desktop.png);
+    width: 300px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-4 {
+    background-image: url(../images/activities-desktop/activities-4-desktop.png);
+    width: 300px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-5 {
+    background-image: url(../images/activities-desktop/activities-5-desktop.png);
+    width: 620px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-6 {
+    background-image: url(../images/activities-desktop/activities-6-desktop.png);
+    width: 620px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-7 {
+    background-image: url(../images/activities-desktop/activities-7-desktop.png);
+    width: 300px;
+    height: 310px;
+  }
+  main > .main__block-form {
+    width: 486px;
+    height: 158px;
+    margin-top: 95px;
+    margin-left: 228px;
+  }
+  main > .main__block-form > .main__block-form__caption {
+    width: 374px;
+    height: 32px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #444444;
+    margin-left: 46px;
+  }
+  main > .main__block-form > .main__block-form__description {
+    width: 415px;
+    height: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin-left: 35px;
+    margin-top: 53px;
+  }
+  main > .main__block-form > form > .main__block-form__input-field {
+    width: 299px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    padding-left: 13px;
+    padding-top: 4px;
+    margin-top: 13px;
+    color: black;
+  }
+  main > .main__block-form > form > .main__block-form__input-field[placeholder] {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+  }
+  main > .main__block-form > form > .main__block-form__submit {
+    width: 172.12px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0px;
+    color: #FFFFFF;
+    margin-left: 6px;
+    transition-duration: 0.3s;
+    border: 2px solid #FF4E50;
+  }
+  main > .main__block-form > form > .main__block-form__submit:hover {
+    background-color: #FFFFFF;
+    color: #FF4E50;
+    cursor: pointer;
+  }
+  footer {
+    width: 1440px;
+    height: 260px;
+    border-top: 2px solid #FF4E50;
+    margin-top: 106px;
+    padding-top: 38px;
+    padding-left: 249px;
+  }
+  footer > .footer__logo {
+    width: 119px;
+    height: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    float: left;
+  }
+  footer > .footer__menu {
+    width: 114px;
+    height: 224px;
+    float: left;
+    margin-left: 122px;
+  }
+  footer > .footer__menu > ul {
+    list-style-type: none;
+  }
+  footer > .footer__menu > ul > .footer__menu__active {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-bottom: 12px;
+  }
+  footer > .footer__menu > ul > .footer__menu__active:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__partners {
+    width: 64px;
+    height: 17px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    float: left;
+    margin-left: 125px;
+  }
+  footer > .footer__partners:hover {
+    cursor: pointer;
+  }
+  footer > .footer__design {
+    width: 84px;
+    height: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #CCCCCC;
+    margin-left: 317px;
+    float: left;
+    letter-spacing: 1px;
+  }
+  footer > .footer__footer-logo {
+    width: 110px;
+    height: 24px;
+    background-image: url(../images/footer-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 831px;
+    margin-top: 19px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  header {
+    width: 768px;
+    height: 700px;
+    padding-top: 40px;
+    padding-left: 48px;
+    background-image: url(../images/header-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+  }
+  header > .header__logo {
+    width: 152px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-right: 365px;
+    float: left;
+  }
+  header > .header__logo:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper-mobile {
+    display: none;
+  }
+  header > .header__wrapper {
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  header > .header__wrapper > .header__wrapper__log-in {
+    width: 44px;
+    height: 17px;
+    margin-top: 10px;
+  }
+  header > .header__wrapper > .header__wrapper__log-in:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper > a > .header__wrapper__sign-up {
+    font-family: "Montserrat", sans-serif;
+    width: 90px;
+    height: 36px;
+    padding-top: 1px;
+    margin-left: 19px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    transition: 0.3s;
+  }
+  header > .header__wrapper > a > .header__wrapper__sign-up:hover {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+  }
+  header > .header__main-text {
+    width: 470px;
+    height: 126px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 147.5px;
+    margin-left: 101px;
+  }
+  header > .header__low-text {
+    width: 397px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 28.5px;
+    margin-left: 138px;
+    letter-spacing: -1.4px;
+  }
+  header > .header__head-button {
+    width: 225px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    margin-top: 35px;
+    border: 0px;
+    margin-left: 224px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+  }
+  header > .header__head-button:hover {
+    cursor: pointer;
+  }
+  main {
+    width: 768px;
+    padding-top: 95px;
+    padding-left: 10px;
+    color: #FFFFFF;
+  }
+  main > .main__block-1 {
+    width: 768px;
+    height: 461px;
+  }
+  main > .main__block-1 > .main__block-1__caption {
+    width: 289px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 230px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 34px;
+  }
+  main > .main__block-1 > .main__block-1__steps {
+    width: 748px;
+    height: 400px;
+    margin-top: 1px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 {
+    width: 236px;
+    height: 400px;
+    background-image: url(../images/step-1-tablet-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 205px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-1 {
+    width: 196px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 46px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-2 {
+    width: 196px;
+    height: 76px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 {
+    width: 236px;
+    height: 400px;
+    background-image: url(../images/step-1-tablet-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+    padding-top: 205px;
+    background-image: url(../images/step-2-tablet-img.png);
+    margin-left: 20px;
+    padding-top: 255px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    width: 196px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    width: 196px;
+    height: 76px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    width: 196px;
+    height: 29px;
+    margin-top: 16px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    margin-top: 23px;
+    height: 57px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 {
+    width: 236px;
+    height: 400px;
+    background-image: url(../images/step-1-tablet-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+    padding-top: 205px;
+    background-image: url(../images/step-3-tablet-img.png);
+    margin-left: 20px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-1 {
+    width: 196px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-2 {
+    width: 196px;
+    height: 76px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-1 {
+    margin-top: 46px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-2 {
+    margin-top: 0px;
+  }
+  main > .main__block-2 {
+    width: 768px;
+    height: 525px;
+    margin-top: 95px;
+    color: #444444;
+  }
+  main > .main__block-2 > .main__block-2__caption {
+    width: 416px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 166px;
+  }
+  main > .main__block-2 > .main__block-2__partners {
+    width: 492px;
+    margin-top: 35px;
+    margin-left: 138px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 {
+    float: left;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 {
+    margin-left: 227px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 {
+    width: 236px;
+    height: 205px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 48px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: -2px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 {
+    width: 236px;
+    height: 205px;
+    margin-left: -10px;
+    margin-top: 53px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 58px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 17px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 12px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-2 {
+    background-image: url(../images/avatar-2.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: 7px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__description {
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 {
+    width: 236px;
+    height: 205px;
+    margin-left: 19px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 58px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 17px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 12px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-3 {
+    background-image: url(../images/avatar-3.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: 7px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 {
+    width: 236px;
+    height: 205px;
+    margin-left: 19px;
+    margin-top: 53px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 58px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 17px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 12px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-4 {
+    background-image: url(../images/avatar-4.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: 7px;
+  }
+  main > .main__block-2 > a > .main__block-2__button {
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 284px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    letter-spacing: 0px;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    transition-duration: 0.3s;
+  }
+  main > .main__block-2 > a > .main__block-2__button:hover {
+    background: #FF4E50;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  main > .main__block-3 {
+    width: 768px;
+    height: 1031px;
+    margin-top: 174px;
+  }
+  main > .main__block-3 > .main__block-3__caption {
+    width: 350px;
+    height: 23px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #444444;
+    margin-left: 199px;
+  }
+  main > .main__block-3 > .main__block-3__activities {
+    margin-top: 39px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .main__block-3__activities__pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-1 {
+    background-image: url(../images/activities-tablet/activities-1-tablet.png);
+    width: 236px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-2 {
+    background-image: url(../images/activities-tablet/activities-2-tablet.png);
+    width: 236px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-3 {
+    background-image: url(../images/activities-tablet/activities-3-tablet.png);
+    width: 236px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-4 {
+    background-image: url(../images/activities-tablet/activities-4-tablet.png);
+    width: 236px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-5 {
+    background-image: url(../images/activities-tablet/activities-5-tablet.png);
+    width: 492px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-6 {
+    background-image: url(../images/activities-tablet/activities-6-tablet.png);
+    width: 492px;
+    height: 310px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-7 {
+    background-image: url(../images/activities-tablet/activities-7-tablet.png);
+    width: 236px;
+    height: 310px;
+  }
+  main > .main__block-form {
+    width: 486px;
+    height: 158px;
+    margin-top: 95px;
+    margin-left: 133px;
+  }
+  main > .main__block-form > .main__block-form__caption {
+    width: 317px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #444444;
+    margin-left: 76px;
+  }
+  main > .main__block-form > .main__block-form__description {
+    width: 415px;
+    height: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin-left: 35px;
+    margin-top: 53px;
+  }
+  main > .main__block-form > form > .main__block-form__input-field {
+    width: 299px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    padding-left: 13px;
+    padding-top: 4px;
+    margin-top: 13px;
+    color: black;
+  }
+  main > .main__block-form > form > .main__block-form__input-field[placeholder] {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+  }
+  main > .main__block-form > form > .main__block-form__submit {
+    width: 172.12px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0px;
+    color: #FFFFFF;
+    margin-left: 6px;
+    transition-duration: 0.3s;
+    border: 2px solid #FF4E50;
+  }
+  main > .main__block-form > form > .main__block-form__submit:hover {
+    background-color: #FFFFFF;
+    color: #FF4E50;
+    cursor: pointer;
+  }
+  footer {
+    width: 768px;
+    height: 244px;
+    border-top: 2px solid #FF4E50;
+    margin-top: 101px;
+    padding-top: 38px;
+    padding-left: 39px;
+  }
+  footer > .footer__logo {
+    width: 119px;
+    height: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    float: left;
+  }
+  footer > .footer__menu {
+    width: 114px;
+    height: 224px;
+    float: left;
+    margin-left: 108px;
+  }
+  footer > .footer__menu > ul {
+    list-style-type: none;
+  }
+  footer > .footer__menu > ul > .footer__menu__active {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  footer > .footer__menu > ul > .footer__menu__active:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__partners {
+    width: 64px;
+    height: 17px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    float: left;
+    margin-left: 56px;
+    margin-top: 2px;
+  }
+  footer > .footer__partners:hover {
+    cursor: pointer;
+  }
+  footer > .footer__design {
+    width: 84px;
+    height: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #CCCCCC;
+    float: left;
+    letter-spacing: 1px;
+    margin-left: 148px;
+    margin-top: 1px;
+  }
+  footer > .footer__footer-logo {
+    width: 110px;
+    height: 24px;
+    background-image: url(../images/footer-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 579px;
+    margin-top: 19px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  header {
+    width: 320px;
+    height: 540px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-image: url(../images/header-img-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+  }
+  header > .header__logo {
+    width: 152px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 66px;
+    margin-top: 97px;
+    float: left;
+  }
+  header > .header__logo:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper-mobile {
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+    width: 153px;
+    height: 36px;
+    margin-left: 64px;
+  }
+  header > .header__wrapper-mobile > .header__wrapper__log-in {
+    width: 44px;
+    height: 17px;
+    margin-top: 10px;
+  }
+  header > .header__wrapper-mobile > .header__wrapper__log-in:hover {
+    cursor: pointer;
+  }
+  header > .header__wrapper-mobile > a > .header__wrapper__sign-up {
+    font-family: "Montserrat", sans-serif;
+    width: 90px;
+    height: 36px;
+    padding-top: 1px;
+    margin-left: 19px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    transition: 0.3s;
+  }
+  header > .header__wrapper-mobile > a > .header__wrapper__sign-up:hover {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+  }
+  header > .header__wrapper {
+    display: none;
+  }
+  header > .header__main-text {
+    width: 272px;
+    height: 74px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 4px;
+    float: left;
+  }
+  header > .header__low-text {
+    width: 269px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 3px;
+    letter-spacing: -1px;
+    float: left;
+  }
+  header > .header__head-button {
+    font-family: "Montserrat", sans-serif;
+    width: 280px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    margin-top: 16px;
+    border: 0px;
+    margin-left: 1px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    float: left;
+  }
+  header > .header__head-button:hover {
+    cursor: pointer;
+  }
+  main {
+    width: 320px;
+    padding-top: 34px;
+    padding-left: 10px;
+    color: #FFFFFF;
+  }
+  main > .main__block-1 {
+    width: 300px;
+    height: 781px;
+  }
+  main > .main__block-1 > .main__block-1__caption {
+    width: 289px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 6px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 15px;
+  }
+  main > .main__block-1 > .main__block-1__steps {
+    width: 300px;
+    height: 1240px;
+    margin-top: 1px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 {
+    width: 300px;
+    height: 240px;
+    background-image: url(../images/step-1-mobile-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 64px;
+    margin-bottom: 10px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 16px;
+    display: flex;
+    align-items: flex-end;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-1 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 25px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 {
+    width: 300px;
+    height: 240px;
+    background-image: url(../images/step-1-mobile-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 64px;
+    margin-bottom: 10px;
+    background-image: url(../images/step-2-mobile-img.png);
+    padding-top: 95px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 16px;
+    display: flex;
+    align-items: flex-end;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 25px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-1 {
+    margin-top: -14px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-2 > .main__block-1__steps__step__text-2 {
+    margin-top: 24px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 {
+    width: 300px;
+    height: 240px;
+    background-image: url(../images/step-1-mobile-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 64px;
+    margin-bottom: 10px;
+    background-image: url(../images/step-3-mobile-img.png);
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__label {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-1 {
+    width: 250px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    margin-top: 16px;
+    display: flex;
+    align-items: flex-end;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-2 {
+    width: 250px;
+    height: 57px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 25px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-1 {
+    margin-top: 16px;
+  }
+  main > .main__block-1 > .main__block-1__steps > .main__block-1__steps__step-3 > .main__block-1__steps__step__text-2 {
+    margin-top: 25px;
+  }
+  main > .main__block-2 {
+    width: 300px;
+    height: 1031px;
+    margin-top: 37px;
+    color: #444444;
+  }
+  main > .main__block-2 > .main__block-2__caption {
+    width: 280px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  main > .main__block-2 > .main__block-2__partners {
+    width: 230px;
+    margin-top: 14px;
+    margin-left: 42px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 {
+    width: 236px;
+    height: 205px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 48px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-1 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: -10px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 {
+    width: 236px;
+    height: 205px;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 48px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: -10px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .avatar-2 {
+    background-image: url(../images/avatar-2.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: 7px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-1 > .main__block-2__partners__partner-2 > .main__block-2__partners__description {
+    margin-top: 26px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 {
+    width: 236px;
+    height: 205px;
+    margin-left: 0px;
+    margin-top: 35px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 48px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: -10px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .avatar-3 {
+    background-image: url(../images/avatar-3.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-3 > .main__block-2__partners__description {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 {
+    width: 236px;
+    height: 205px;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__partner__img {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 48px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-1 {
+    background-image: url(../images/avatar-1.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__name {
+    width: 221px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: -10px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .avatar-4 {
+    background-image: url(../images/avatar-4.png);
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__description {
+    margin-top: 21px;
+  }
+  main > .main__block-2 > .main__block-2__partners > .wrapper-2 > .main__block-2__partners__partner-4 > .main__block-2__partners__name {
+    margin-top: 19px;
+    margin-left: -3px;
+  }
+  main > .main__block-2 > a > .main__block-2__button {
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    margin-top: 36px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    letter-spacing: 0px;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    transition-duration: 0.3s;
+  }
+  main > .main__block-2 > a > .main__block-2__button:hover {
+    background: #FF4E50;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  main > .main__block-3 {
+    width: 300px;
+    height: 987px;
+    margin-top: 35px;
+  }
+  main > .main__block-3 > .main__block-3__caption {
+    width: 280px;
+    height: 54px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #444444;
+    margin-left: 10px;
+  }
+  main > .main__block-3 > .main__block-3__activities {
+    margin-top: 33px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .main__block-3__activities__pic {
+    width: 300px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-bottom: 10px;
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-1 {
+    background-image: url(../images/activities-mobile/activities-1-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-2 {
+    background-image: url(../images/activities-mobile/activities-2-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-3 {
+    background-image: url(../images/activities-mobile/activities-3-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-4 {
+    background-image: url(../images/activities-mobile/activities-4-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-5 {
+    background-image: url(../images/activities-mobile/activities-5-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-6 {
+    background-image: url(../images/activities-mobile/activities-6-mobile.png);
+  }
+  main > .main__block-3 > .main__block-3__activities > .pic-7 {
+    background-image: url(../images/activities-mobile/activities-7-mobile.png);
+  }
+  main > .main__block-form {
+    width: 300px;
+    height: 191px;
+    margin-top: 36px;
+  }
+  main > .main__block-form > .main__block-form__caption {
+    width: 280px;
+    height: 54px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #444444;
+    margin-left: 10px;
+  }
+  main > .main__block-form > .main__block-form__description {
+    width: 280px;
+    height: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin-left: 11px;
+    margin-top: 18px;
+  }
+  main > .main__block-form > form > .main__block-form__input-field {
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    color: black;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    padding-left: 14px;
+    padding-top: 4px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  main > .main__block-form > form > .main__block-form__input-field[placeholder] {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+  }
+  main > .main__block-form > form > .main__block-form__submit {
+    width: 280px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+    border: 2px solid #FF4E50;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+  main > .main__block-form > form > .main__block-form__submit:hover {
+    background-color: #FFFFFF;
+    color: #FF4E50;
+    cursor: pointer;
+  }
+  footer {
+    width: 320px;
+    height: 226px;
+    border-top: 2px solid #FF4E50;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer > .footer__logo {
+    width: 119px;
+    height: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    margin-left: 101px;
+  }
+  footer > .footer__menu {
+    width: 114px;
+    height: 91px;
+    margin-left: 1px;
+    margin-bottom: -2px;
+  }
+  footer > .footer__menu > ul {
+    list-style-type: none;
+  }
+  footer > .footer__menu > ul > .footer__menu__active {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-top: 13px;
+    margin-left: 124px;
+    margin-bottom: 1px;
+  }
+  footer > .footer__menu > ul > .footer__menu__active:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+  }
+  footer > .footer__menu > ul > .wrapper-2 {
+    width: 200px;
+    display: flex;
+    margin-left: 66px;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    margin-right: 14px;
+  }
+  footer > .footer__menu > ul > .wrapper-1 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive {
+    height: 27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    float: left;
+    margin-left: 15px;
+  }
+  footer > .footer__menu > ul > .wrapper-2 > .footer__menu__pasive:hover {
+    cursor: pointer;
+  }
+  footer > .footer__partners {
+    width: 64px;
+    height: 17px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin-left: 128px;
+    margin-bottom: 20px;
+  }
+  footer > .footer__partners:hover {
+    cursor: pointer;
+  }
+  footer > .footer__design {
+    width: 84px;
+    height: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #CCCCCC;
+    letter-spacing: 1px;
+    margin-left: 120px;
+    margin-top: -6px;
+  }
+  footer > .footer__footer-logo {
+    width: 110px;
+    height: 24px;
+    background-image: url(../images/footer-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 105px;
+    margin-top: 6px;
+  }
+}/*# sourceMappingURL=main.css.map */
